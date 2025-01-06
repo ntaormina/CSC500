@@ -1,0 +1,8 @@
+pTax = float(input("Enter your bill (pre-tax and tip): "))
+tax = pTax * 0.07
+formatted_tax = f"{tax:.2f}"
+print("Tax = $", formatted_tax)
+tip = pTax * 0.18
+taxAndTip = tip + tax + pTax
+formatted_taxAndTip = f"{taxAndTip:.2f}"
+print("Total with 18% tip (and tax) = $", formatted_taxAndTip)

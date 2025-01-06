@@ -1,0 +1,4 @@
+time = float(input("What time is it?: "))
+howLong = float(input("How many hours before alarm?: "))
+newTime = (time + howLong) % 24
+print("Alarm will go off at ", newTime)
